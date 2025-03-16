@@ -27,6 +27,12 @@ body {
   padding-top: 1.4375rem;
   
 }
+@media screen and (width >= 768px){
+  .container{
+    display: flex;
+  }
+}
+
 .top{
   display: flex;
   justify-content: space-between;
@@ -35,6 +41,11 @@ body {
 }
 .first-section{
   padding-right: 1.5rem;
+}
+@media screen and (width >=768px){
+  .first-section{
+    width: 21.1875rem;
+  }
 }
 .h1title{
   font-weight: 900;
@@ -81,4 +92,17 @@ margin-bottom: 4rem;
 }
 .image-keyboard{
   border-radius:1.25rem 0 0 1.25rem ;
+}
+.images{
+  display: flex;
+  position: relative;
+}
+.image-phone{
+  position: absolute;
+  content: "";
+  border-radius:1.25rem;
+}
+.image-glass{
+  border-radius:0.5rem ;
+  padding-right: 1.5rem;
 }
